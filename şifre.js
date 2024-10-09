@@ -21,7 +21,7 @@ let tut = "Tutar : "
 let isb = "İşlem sonrası bakiye : "
 
 
-if(yakittürü == 1){
+if(yakittürü == 1 , "LPG" ,"Lpg","lpg"){
     console.log(yc+lpg1)
     console.log(al+litre)
     console.log(tut+Number(litre)*lpg)
@@ -31,7 +31,7 @@ if(yakittürü == 1){
     
 
 }
-else if(yakittürü == 2){
+else if(yakittürü == 2 , "Dizel","DİZEL","dizel"){
     console.log(yc+dizel1)
     console.log(al+litre)
     console.log(tut+Number(litre)*dizel)
@@ -41,7 +41,7 @@ else if(yakittürü == 2){
 
 }
     
-    else if(yakittürü == 3){
+   else if(yakittürü == 3 , "Benzin","BENZİN","benzin"){
         console.log(yc+benzin1)
     console.log(al+litre)
     console.log(tut+Number(litre)*benzin)
